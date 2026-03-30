@@ -68,7 +68,7 @@ class HomepageContent extends Model
     {
         return [
             'topbar_text' => 'Compare handpicked Kenya safari packages with local planners, 4x4 guides and flexible departures.',
-            'brand_name' => 'Caracal Safaris',
+            'brand_name' => 'Caracal Expenditions',
             'brand_sub' => 'Compare East African Safari Tours',
             'phone_number' => '+254 733 649 245',
             'quote_email' => 'hello@caracal.ke',
