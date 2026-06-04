@@ -42,7 +42,7 @@
             background: linear-gradient(90deg, transparent, #d5d8db 18%, #d5d8db 82%, transparent);
             position: relative;
         }
-
+/* This is acomment */
         .international-rule::after {
             content: "";
             position: absolute;
