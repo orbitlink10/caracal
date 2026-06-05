@@ -397,7 +397,8 @@
             <h2>{{ $content->contact_title }}</h2>
             <p>{{ $content->contact_text }}</p>
             <div class="support-actions">
-                <a class="btn btn-primary" href="mailto:{{ $content->quote_email }}?subject=Safari%20Inquiry">Send Email</a>
+                <a class="btn btn-primary" href="{{ $whatsappHref }}" target="_blank" rel="noopener">Text On WhatsApp</a>
+                <a class="btn btn-ghost" href="mailto:{{ $content->quote_email }}?subject=Safari%20Inquiry">Send Email</a>
                 <a class="btn btn-ghost" href="tel:{{ $phoneHref }}">Call {{ $content->phone_number }}</a>
             </div>
         </section>
@@ -509,7 +510,7 @@
             <h2>{{ $content->contact_title }}</h2>
             <p>{{ $content->contact_text }}</p>
             <div class="support-actions">
-                <a class="btn btn-primary" href="mailto:{{ $content->quote_email }}?subject=Request%20A%20Quote">Request A Quote</a>
+                <a class="btn btn-primary" href="{{ $whatsappHref }}" target="_blank" rel="noopener">Request A Quote On WhatsApp</a>
                 <a class="btn btn-ghost" href="tel:{{ $phoneHref }}">Speak To A Safari Planner</a>
             </div>
         </section>
